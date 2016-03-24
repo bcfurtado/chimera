@@ -13,7 +13,7 @@ class NewVisitorTest(unittest.TestCase):
     def test_can_start_a_list_and_retive_it_later(self):
         self.browser.get('http://localhost:8000')
 
-        assert 'Django' in self.browser.title, "Browser title was {}".format(self.browser.title)
+        assert 'To-Do' in self.browser.title, "Browser title was {}".format(self.browser.title)
 
 
 
