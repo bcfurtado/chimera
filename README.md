@@ -14,3 +14,22 @@ cd chimera
 mkvirtualenv $(cat .virtual-environment) -p $(which python3)
 pip install -r requirements.txt
 ```
+
+## running
+
+### migrations
+```sh
+python manage.py migrate
+```
+
+### tests
+
+```sh
+python functional_tests.py
+python manage.py test
+```
+
+### application
+```sh
+python manage.py runserver
+```
