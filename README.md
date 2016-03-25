@@ -25,8 +25,8 @@ python manage.py migrate
 ### tests
 
 ```sh
-python functional_tests.py
 python manage.py test
+python manage.py test functional_tests
 ```
 
 ### application
